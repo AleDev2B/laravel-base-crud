@@ -14,16 +14,17 @@ class CreateRistorantiTable extends Migration
     public function up()
     {
         Schema::create('ristoranti', function (Blueprint $table) {
-            $table->id();
-
-            $table->string('name');
-            $table->string('address');
-            $table->string('rating');
-            $table->string('telephone');
-            $table->string('type');
-            $table->string('name');
-            $table->string('name');
-            $table->timestamps();
+          $table->id();
+           $table->string('name');
+           $table->string('city');
+           $table->string('postcode');
+           $table->string('address');
+           $table->string('rating');
+           $table->string('telephone');
+           $table->string('email');
+           $table->string('owner');
+           $table->string('description');
+           $table->timestamps();
         });
     }
 
