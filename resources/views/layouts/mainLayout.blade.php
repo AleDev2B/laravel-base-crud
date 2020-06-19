@@ -19,7 +19,9 @@
       </div>
 
       <div class="content">
-        @yield('content')
+
+          @yield('content')
+      
       </div>
 
       <div class="footer">

@@ -1,7 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('content')
-<p>Questo e' l'elenco dei 100 migliori ristoranti del Mondo:</p>
+<p>Scorri l'elenco dei 100 migliori ristoranti del Mondo:</p>
 <ul>
   @foreach ($ristoranti as $ristorante)
     <li>Nome ristorante:

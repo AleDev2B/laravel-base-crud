@@ -21,11 +21,11 @@ body .content {
   display: inline-table;
   width: 100vw;
   height: 75vh;
+  margin: auto;
 }
 
 body .content p {
   width: 100vw;
-  margin: auto;
 }
 
 body .footer {
